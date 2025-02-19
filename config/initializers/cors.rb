@@ -14,5 +14,6 @@
        headers: :any,
        expose: ['access-token', 'expiry','token-type', 'Authorization'],
        methods: [:get, :post, :put, :patch, :delete, :options, :head, :show]
+     )
    end
  end
