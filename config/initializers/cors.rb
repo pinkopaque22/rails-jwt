@@ -12,7 +12,8 @@
      resource(
        "*",
        headers: :any,
-       expose: ['access-token', 'expiry','token-type', 'Authorization'],
+       #expose: ['access-token', 'expiry','token-type', 'Authorization'],
+       expose: ['Authorization'],
        methods: [:get, :post, :put, :patch, :delete, :options, :head, :show]
      )
    end
